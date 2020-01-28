@@ -3,7 +3,7 @@
 require 'pry'
 def key_for_min_value(name_hash)
   #initialise
-  puts name_hash[0]
+  result, min = name_hash[0].first
   binding.pry
 end
 
