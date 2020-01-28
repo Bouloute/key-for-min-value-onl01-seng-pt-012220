@@ -3,7 +3,7 @@
 require 'pry'
 def key_for_min_value(name_hash)
   #initialise
-  hash = name_hash[0] #????????
+  hash = name_hash #????????
   result, min = hash.first
 
   hash.each{|item, price|
