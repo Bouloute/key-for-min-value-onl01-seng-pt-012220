@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   result, min = name_hash[0].first
  puts result
  puts min
-  name_hash.each{|item, price|
+  name_hash[0].each{|item, price|
   #  if (price < min)
       result, min = item, price
 
