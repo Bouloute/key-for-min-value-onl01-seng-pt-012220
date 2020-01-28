@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   result, min = name_hash[0].first
 
   name_hash.each{|item, price|
-    if price <= min
+    if (price < min)
       result, min = item, price
     end
   }
