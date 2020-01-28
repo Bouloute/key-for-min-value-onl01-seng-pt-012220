@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
       result, min = item, price
     end
   }
+  result
 end
 
 key_for_min_value(["one" => 1, "two" => 2])
