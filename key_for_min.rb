@@ -4,11 +4,12 @@ require 'pry'
 def key_for_min_value(name_hash)
   #initialise
   result, min = name_hash[0].first
-
+ puts result
+ puts min
   name_hash.each{|item, price|
-    if (price < min)
+  #  if (price < min)
       result, min = item, price
-    end
+  #  end
   }
    puts result
 end
