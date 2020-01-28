@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   name_hash.each{|item, price|
   #  if (price < min)
       result, min = item, price
-      
+
      puts result
      puts min
   #  end
