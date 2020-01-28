@@ -3,15 +3,12 @@
 require 'pry'
 def key_for_min_value(name_hash)
   #initialise
-  hash = name_hash #????????
-  result, min = hash.first
+  result, min = name_hash.first
 
-  hash.each{|item, price|
+  name_hash.each{|item, price|
     if (price < min)
       result, min = item, price
     end
   }
-  puts result
+   result
 end
-
-key_for_min_value({:three => 3, :two => 2, :one => 5, :four => 4})
