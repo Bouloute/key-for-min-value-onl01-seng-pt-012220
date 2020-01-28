@@ -14,4 +14,4 @@ def key_for_min_value(name_hash)
   puts result
 end
 
-key_for_min_value([:three => 3, :two => 2, :one => 5, :four => 4])
+key_for_min_value({:three => 3, :two => 2, :one => 5, :four => 4})
